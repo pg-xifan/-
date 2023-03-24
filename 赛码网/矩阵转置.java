@@ -28,7 +28,7 @@ public class Test {
         //集合嵌套集合
         ArrayList<ArrayList<Integer>> arr = new ArrayList<ArrayList<Integer>>();
 
-        //while循环接受字符
+        //while循环接收字符
         while (cin.hasNextLine()) {
             ArrayList<Integer> row = new ArrayList<Integer>();
             String line = cin.nextLine();
