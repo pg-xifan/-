@@ -61,7 +61,7 @@ Sample Output 3
 #include <string.h>
 
 int main(){
-    char c[100],d[100];
+    char c[100],d[100]={0};//对d初始化，就有\0了
     //获取数组c
     gets(c);
     //循环将c数组倒置赋值给d
