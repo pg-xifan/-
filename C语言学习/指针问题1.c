@@ -26,15 +26,14 @@ Sample Output 2
 
 #include <stdio.h>
 
-void change(b){
-    int c;
-    c=b/2;
-    printf("%d",c);
+void change(int *b){
+    *b=*b/2;
+    printf("%d",*b);
 }
 
 int main() {
     int i;
     scanf("%d",&i);
-    change(i);
+    change(&i);
     return 0;
 }
